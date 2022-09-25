@@ -1,0 +1,504 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(main2.css);
+.Container{
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+.Menu{
+    width: 486px;
+    height: 44px;
+    margin:54px auto 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_link{
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: black;
+    text-decoration: none;
+}
+.menu_link:hover{
+    color: #2785F7;
+}
+.menu_active{
+    color: #2785F7;
+}
+
+.Content{
+    width: 1404px;
+    height: 726px;
+    background-color: #EAEBED;
+    margin: 32px auto 44px;
+    border-radius: 30px;
+  float: left;
+}
+.Side{
+    width: 105px;
+    height: 420px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin: 175px 0 0 23px ;
+    float: left;
+
+}
+.fol{
+    background:#FEFEFE;
+    border-radius: 15px;
+    width:67px;
+    height:62px;
+    margin: 17px 19px 0 19px;
+    position: relative;
+    transition-duration: 0.7s ;
+    transition-property: width;
+
+}
+.folIcon{
+    width: 35px;
+    height: 33.01px;
+    display: inline-block;
+    margin: 14px 0 0 17px;
+}
+.fol::after{
+ content: "";
+ font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+ line-height: 62px;
+ width:0;
+ height: 62px;
+ position: absolute;
+ transition-property:content,width;
+ transition-duration: 0.7s;
+ right: 12px;
+ top: 0;
+}
+.fol:hover::after{
+content: "Project";
+width: 71px;
+overflow: hidden;
+}
+.fol:hover{
+    background-color: #2785F7;
+    cursor: pointer;
+    width: 151px;
+    fill: #FEFEFE;
+}
+.fol2{
+    background:#FEFEFE;
+border-radius: 15px;
+width:67px;
+height:62px;
+margin: 17px 19px 0 19px;
+position: relative;
+transition-duration: 0.7s ;
+transition-property: width;
+}
+.fol2::after{
+    content: "";
+    font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+    line-height: 62px;
+    width:0;
+    height: 62px;
+    position: absolute;
+    transition-property:content,width;
+    transition-duration: 0.7s;
+    right: 15px;
+    top: 0;
+   }
+   .fol2:hover::after{
+   content: "Account";
+   width: 76px;
+   overflow: hidden;
+   }
+   .fol2:hover{
+       background-color: #2785F7;
+       cursor: pointer;
+       width:153px;
+       fill: #FEFEFE;
+   }
+
+   .fol3{
+    background:#FEFEFE;
+border-radius: 15px;
+width:67px;
+height:62px;
+margin: 17px 19px 0 19px;
+position: relative;
+transition-duration: 0.7s ;
+transition-property: width;
+}
+.fol3::after{
+    content: "";
+    font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+    line-height: 62px;
+    width:0;
+    height: 62px;
+    position: absolute;
+    transition-property:content,width;
+    transition-duration: 0.7s;
+    right: 12px;
+    top: 0;
+   }
+   .fol3:hover::after{
+   content: "Groups";
+   width: 71px;
+   overflow: hidden;
+   }
+   .fol3:hover{
+       background-color: #2785F7;
+       cursor: pointer;
+       width: 151px;
+    fill: #FEFEFE;
+
+   }
+
+   .fol4{
+    background:#FEFEFE;
+border-radius: 15px;
+width:67px;
+height:62px;
+margin: 17px 19px 0 19px;
+position: relative;
+transition-duration: 0.7s ;
+transition-property: width;
+}
+.fol4::after{
+    content: "";
+    font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+    line-height: 62px;
+    width:0;
+    height: 62px;
+    position: absolute;
+    transition-property:content,width;
+    transition-duration: 0.7s;
+    right: 12px;
+    top: 0;
+   }
+   .fol4:hover::after{
+   content: "Cloud";
+   width: 71px;
+   overflow: hidden;
+   }
+   .fol4:hover{
+       background-color: #2785F7;
+       cursor: pointer;
+       width: 151px;
+    fill: #FEFEFE;
+
+   }
+   .fol5{
+    background:#FEFEFE;
+border-radius: 15px;
+width:67px;
+height:62px;
+margin: 17px 19px 0 19px;
+position: relative;
+transition-duration: 0.7s ;
+transition-property: width;
+}
+.fol5::after{
+    content: "";
+    font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+    line-height: 62px;
+    width:0;
+    height: 62px;
+    position: absolute;
+    transition-property:content,width;
+    transition-duration: 0.7s;
+    right: 13px;
+    top: 0;
+   }
+   .fol5:hover::after{
+   content: "Settings";
+   width: 76px;
+   overflow: hidden;
+   }
+   .fol5:hover{
+       background-color: #2785F7;
+       cursor: pointer;
+       width: 151px;
+    fill: #FEFEFE;
+
+   }
+
+ .fol_active{
+     background-color: #2785F7;
+     fill: #FEFEFE;
+ }  
+.PrName{
+    width: 1212px;
+    height: 130px;
+    margin: 80px 0 0 158px;
+display: flex;
+justify-content: space-between;
+}
+.bl1{
+    background:#FEFEFE ;
+border-radius: 30px;
+width: 592px;
+height: 130px;
+
+}
+.bl2{
+    background: #FEFEFE;
+    border-radius: 30px;
+    width: 583px;
+    height: 130px;
+}
+.DesDataTeam{
+    width:1212px;
+    height: 410px;
+    margin: 34px 0 0 158px;
+}
+.DesTeam{
+    width: 732px;
+    height: 410px;
+    float: left;
+}
+.Des{
+    background: #FEFEFE;
+    border-radius: 30px;
+    width: 732px;
+    height: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textDes{
+    width: 624px;
+height: 126px;
+}
+.Team{
+    background: #FEFEFE;
+    border-radius: 30px;
+    width: 732px;
+    height: 194px;
+    margin-top:22px;
+    
+}
+.TeamImg{
+    width: 120px;
+height: 138.26px;
+margin: 28px 0 27px 42px;
+float: left;
+}
+.textTeam{
+    width: 495px;
+height: 97px;
+float: left;
+margin: 34px 26px 63px 49px;
+}
+.Data{
+    width: 447px;
+    height: 410px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    float: right;
+}
+.textData{
+    width: 366px;
+height: 198px;
+margin: 24.68px 39px 38px 42px;
+}
+.DataImg{
+    width: 120px;
+height: 115.32px;
+margin: 34px 0 0 42px;
+}
+.T1{
+    width: 1297px;
+    height: 325px;
+    margin: 56px 35px 0 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.Person1234{
+    width: 300px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    position: relative;
+    
+}
+.Person1234:hover{
+  background-color:#2785F7;
+    cursor: pointer;
+}
+.Person5678:hover{
+    background-color:#2785F7;
+      cursor: pointer;
+  }
+.T2{
+    width: 1297px;
+    height: 278px;
+    margin: 23px 35px 0 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.Person5678{
+    width: 300px;
+    height: 278px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    position: relative;
+}
+.ImgPerson{
+    width: 100px;
+height: 100px;
+border-radius: 50px;
+margin: 51px 102px 0 98px;
+}
+.ImgPersonBottom{
+    width: 100px;
+height: 100px;
+border-radius: 50px;
+margin: 20px 101px 0 91px;
+}
+.TextPerson{
+    width: 232px;
+height: 64px;
+margin: 0 auto;
+margin-top: 11px;
+text-align: center;
+}
+.TextPerson{
+    width: 232px;
+height: 64px;
+margin: 0 auto;
+margin-top: 10px;
+text-align: center;
+}
+.September{
+    width: 215px;
+height: 44px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+.SeptemberBottom{
+    width: 215px;
+height: 44px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    color: #B1B1B1;    
+}
+
+h1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+color: #000000;
+}
+.margins_P{
+    margin: 32px 0 0 42px;
+}
+.margins_H1{
+margin: 0 0 32px 42px;
+}
+                                                    /* LESSONS */
+.LesMenu{
+    width: 1090px;
+    height: 40px;
+    margin: 124px 138px 0 138px;
+    display: flex;
+    justify-content: space-between;
+}                                    
+
+.DownIcon{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 2.5px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border: #B1B1B1 1px solid;
+}
+.DownIcon:hover{
+    background-color: #2785F7;
+    cursor: pointer;
+    
+}
+.Icon:hover{
+    color:  #FEFEFE;
+}
+.TablHov{
+    width: 1194px;
+    height: 400px;
+    margin:23px 86px 0 86px;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-direction: column;
+    position: absolute;
+    z-index: 0;
+}
+.blHov001{
+    width: 1194px;
+height: 64px;
+background: #EAEBED;
+border-radius: 21px;
+text-align: center;
+}
+.check{
+width: 100%;
+height: 100%;
+}
+.blHov001:hover{
+    background: #FEFEFE;
+    cursor: pointer;   
+}
+h2{
+display: inline-block;
+margin: 0 80px;
+margin-top: 9px;
+font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+color: #000000;
+}

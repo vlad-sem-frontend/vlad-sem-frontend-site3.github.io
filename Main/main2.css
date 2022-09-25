@@ -1,0 +1,259 @@
+.Forms{
+    width: 1220px;
+    height: 679px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.AndyPass{
+    width:615px;
+    height:686px;
+    margin:20px 0 0 30px;
+}
+.Andy{
+    width: 615px;
+    height: 149px;
+    background: #FEFEFE;
+border-radius: 30px;
+}
+.Elipse_1{
+    border-radius: 35px;
+    width: 65px;
+    height: 65px;
+    background: #F24F5E;
+margin: 42px 0 42px 42px;
+float: left;
+}
+div[class="Elipse_1"]>h3{
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 53px;
+text-align: center;
+color: #FFFFFF;
+}
+.Andy_Cube{
+    float: left;
+    width: 205px;
+    height: 71px;
+    margin: 39px 0 39px 43px;
+}
+.Pass{
+    width: 615px;
+    height: 517px;
+    background: #FEFEFE;
+border-radius: 30px;
+margin-top: 20px;    
+}
+.Elipse_2{
+    width: 65px;
+height: 65px;
+float: left;
+background: #2785F7;
+border-radius: 35px;
+margin: 27px 0 0 42px;
+display: flex;
+justify-content: center;
+align-items: center;
+float: left;
+
+}
+.Change{
+    width: 453px;
+    height: 104px;
+    float: left;
+    margin: 27px 0 0 42px;
+}
+.Company{
+    width:615px;
+    height:686px;
+    margin:20px 0 0 17px;
+background: #FEFEFE;
+border-radius: 30px;
+}
+div[class="Company"]>.Elipse_2{
+    margin: 42px 0 0 47px;
+
+}
+.Text_Company{
+ width: 363px;
+ height: 85px;
+ margin: 32px 0 0 43px;
+ float: left;
+}
+.boxFormPass{
+    width:524px;
+    height:355px;
+    margin: 3px 0 0 47px;
+    float: left;
+}
+div[class="boxFormPass"]>h3{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.Old{
+    width:510px; 
+    height:51px;
+    border-radius: 15px;
+    margin:22px 0;
+    padding-left: 14px;
+}
+.CompanyField{
+    height: 276px;
+    width: 494px;
+    float: left;
+    margin: 12px 0 0 23px;
+}
+.Log{
+    width: 480px;
+    height: 52px;
+    margin: 22px 0;
+    border-radius: 15px;
+    padding-left: 14px;
+
+}
+div[class="Company"] h3{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #000000;
+}
+.Franka61{
+    width: 480px;
+    height: 88px;
+    margin:22px 0;
+    border-radius: 15px;
+    padding-left: 14px;
+
+}
+.BottomBox_cssp{
+    width: 494px;
+    height:237px;
+    float: left;
+    margin-top:22px ;
+    margin-left: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.CS{
+    width: 237px;
+    height: 241px;
+    
+  
+}
+.CSSP_Form{
+    width: 223px;
+    height: 63px;
+    margin:22px 0 15px 0;
+    border-radius: 15px;
+    padding-left: 14px;
+  
+}
+.SP{
+    width: 237px;
+    height: 241px;
+ 
+    
+}
+form input[type="text"]{
+    border: #C0C0C0 2px solid;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+ 
+}
+[placeholder]{
+margin-top: 18px;
+font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+
+color: #B1B1B1;
+display: inline;
+}
+form input[type="text"]:focus{
+    outline: #2785F7 1px solid;
+    border: #2785F7 1px solid;
+}
+.fol_active{
+    background: #2785F7;
+}
+.Person1234:hover::after{
+    content: "";
+    background-image: url(../images/trash-alt\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FEFEFE;
+width: 82px;
+height: 76px;
+border-radius: 20px;
+position: absolute;
+right: 0;
+top: 0;
+margin-top:-38px;
+margin-right: -17px;
+cursor: pointer;
+
+}
+.Person5678:hover::after{
+    content: "";
+    background-image: url(../images/trash-alt\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FEFEFE;
+width: 82px;
+height: 76px;
+border-radius: 20px;
+position: absolute;
+right: 0;
+top: 0;
+margin-top:-38px;
+margin-right: -17px;
+cursor: pointer;
+}
+/* .BoxCheck{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 2.5px;
+    border-radius: 11px;
+border: #B1B1B1 1px solid;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.Check{
+    width: 35px;
+    height:35px
+    
+} */
+.cf{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.box{
+    width: 26px;
+    height: 26px;
+    border: gray 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cb{
+width: 30px;
+height: 30px;
+}
+
